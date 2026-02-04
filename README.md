@@ -11,10 +11,10 @@ El flujo de datos sigue un pipeline estricto de ETL y Enriquecimiento Semántico
 
 ```mermaid
 graph TD
-    A[Raw Sources<br/>Audio/Video/Text] -->|Whisper AI| B(Transcripts Processor)
+    A[Raw Sources] -->|Whisper AI| B(Transcripts Processor)
     B -->|Vector Embeddings| C[(ChromaDB Memory)]
-    C <-->|Query Context| D{Gemini 1.5 Pro<br/>Reasoning Engine}
-    D -->|Generate| E[Sentiment Payload<br/>(JSON Contract)]
+    C <-->|Query Context| D{Gemini 1.5 Pro Engine}
+    D -->|Generate| E[Sentiment Payload JSON]
     E -->|Publish| F[Quant Consumers]
 ```
 
