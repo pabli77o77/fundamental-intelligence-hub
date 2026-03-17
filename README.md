@@ -13,7 +13,7 @@ El flujo de datos sigue un pipeline estricto de ETL y Enriquecimiento Semántico
 graph TD
     A[Raw Sources] -->|Whisper AI| B(Transcripts Processor)
     B -->|Vector Embeddings| C[(ChromaDB Memory)]
-    C <-->|Query Context| D{Gemini 1.5 Pro Engine}
+    C <-->|Query Context| D{Gemini 2.5 Pro Engine}
     D -->|Generate| E[Sentiment Payload JSON]
     E -->|Publish| F[Quant Consumers]
 ```
