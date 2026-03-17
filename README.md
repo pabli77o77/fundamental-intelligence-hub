@@ -3,7 +3,7 @@
 **Portfolio Showcase Version** - Arquitectura de Inteligencia RAG para Mercados Financieros.
 
 ## 📋 Descripción General
-Este servicio actúa como un Hub de Inteligencia Centralizado que procesa grandes volúmenes de datos no estructurados (Big Data) mediante técnicas de **RAG (Retrieval-Augmented Generation)** y modelos **Gemini 1.5 Pro**. El sistema transforma "ruido" (noticias, videos, reportes) en "señales" cuantitativas estructuradas.
+Este servicio actúa como un Hub de Inteligencia Centralizado que procesa grandes volúmenes de datos no estructurados (Big Data) mediante técnicas de **RAG (Retrieval-Augmented Generation)** y modelos **Gemini 2.5 Pro**. El sistema transforma "ruido" (noticias, videos, reportes) en "señales" cuantitativas estructuradas.
 
 ## 🏗️ Arquitectura del Sistema
 
